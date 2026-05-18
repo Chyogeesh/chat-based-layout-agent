@@ -29,6 +29,36 @@ npm run dev
 
 ## Example Prompts
 
+# Approach
+
+## Architecture
+
+Frontend built using React.
+Backend built using Express.
+
+## Layout Reasoning
+
+Used normalized coordinates nx ny nw nh for transformations.
+
+## Transformations
+
+Implemented:
+- Resize artboard
+- Move headline
+- Resize headline
+- Move offer badge
+
+## Context Handling
+
+Chat history is stored in React state.
+## Improvements
+
+Could add:
+- OpenAI integration
+- Better semantic role detection
+- Drag and drop editing
+- Real canvas rendering
+
 - Convert this design to 9:16
 - Move headline to top
 - Make headline smaller
